@@ -5,7 +5,7 @@
     <RuntimeIdentifiers>win-x64;osx-x64</RuntimeIdentifiers>
     <LangVersion>latest</LangVersion>
     <IsPackable>false</IsPackable>
-    <RuntimeFrameworkVersion>8.0.26</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>8.0.27</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <ItemGroup>
