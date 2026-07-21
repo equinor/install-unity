@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <RuntimeIdentifiers>win-x64;osx-x64</RuntimeIdentifiers>
     <LangVersion>latest</LangVersion>
-    <RuntimeFrameworkVersion>8.0.28</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>8.0.29</RuntimeFrameworkVersion>
     <PublishAot>true</PublishAot>
     <PublishReadyToRun>true</PublishReadyToRun>
     <PublishTrimmed>true</PublishTrimmed>

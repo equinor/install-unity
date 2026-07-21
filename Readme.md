@@ -33,7 +33,7 @@ Clone the project using
 git clone https://github.com/equinor/install-unity.git
 ```
 
-Right click in your cloned folder `{yourprojects}\install-unity` and open in Terminal and write:
+Right click in your cloned folder `{yourprojects}\install-unity` and open in PowerShell and write:
 
 ```shell
 dotnet publish -r win-x64 -c Release --self-contained --framework net8.0
@@ -43,7 +43,7 @@ Then go to `{yourprojects}\install-unity\Command\bin\Release\net8.0\win-x64\publ
 
 Rename `Command.exe` to `install-unity.exe`.
 
-This is the release, and can now be used to run commands, to test it run this in the Terminal:
+This is the release, and can now be used to run commands, to test it run this in the PowerShell:
 
 ```shell
 ./install-unity.exe list --installed
