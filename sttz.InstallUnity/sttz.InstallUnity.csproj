@@ -6,7 +6,7 @@
     <LangVersion>latest</LangVersion>
     <RootNamespace>sttz.InstallUnity</RootNamespace>
     <IsAotCompatible>true</IsAotCompatible>
-    <RuntimeFrameworkVersion>8.0.29</RuntimeFrameworkVersion>
+    <RuntimeFrameworkVersion>8.0.30</RuntimeFrameworkVersion>
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
