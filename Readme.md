@@ -33,6 +33,10 @@ Clone the project using
 git clone https://github.com/equinor/install-unity.git
 ```
 
+The shared runtime version is pinned to 10.0.15 in [Directory.Build.props](Directory.Build.props), including SDK-managed runtime-pack downloads. Maintain this pin when applying future .NET security updates. Self-contained releases must be rebuilt and redistributed to deliver runtime fixes; updating the machine's installed runtime does not update existing executables.
+
+Framework-dependent builds and tests require an installed .NET 10 runtime at version 10.0.15 or a later patch. Alternatively, run tests self-contained with `dotnet test .\Tests\Tests.csproj -r win-x64 -p:SelfContained=true`.
+
 Right click in your cloned folder `{yourprojects}\install-unity` and open in PowerShell and write:
 
 ```shell
